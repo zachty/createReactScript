@@ -111,7 +111,7 @@ app.listen(port, () => console.log(`listening on port ${port}`));" >> index.js
         #move back into working directory and add start-dev-seed script
         cd ..
         sed -i '18s/$/,/' package.json
-        sed -i '18a\ \ \ \ \ \ \ \ "start-dev-seed": "SEED=true npm run start"' package.json
+        sed -i '18a\ \ \ \ "start-dev-seed": "SEED=true npm run start"' package.json
 
     fi
 

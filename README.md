@@ -4,3 +4,5 @@ Add this as an executable to /usr/bin then you can call createReact directoryNam
 To make this executable on linux get the code as a .sh file, run the commands: <br />
 ```chmod +x createReact.sh```<br />
 ```sudo cp createReact.sh /usr/bin/createReact```
+<br />
+After these steps you can type ```createReact folderName``` anywhere in your home folder and it will set up a react app template. Happy coding
